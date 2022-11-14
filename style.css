@@ -1,0 +1,81 @@
+.wrapper {
+    display: grid;
+    /*place-items:center;*/
+    grid-template-columns: 20px 100px 100px 20px 20px;
+    grid-template-rows: 40px 100px 60px 20px;
+    grid-gap: 10px;
+    background-color: #252525;
+}
+.empty{
+    background-color: white;
+}
+.jaune{
+    background-color: yellow;
+}
+.rouge{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.gris{
+    background-color: grey;
+}
+
+  /* 13 de large */
+  /* 7 de haut */
+
+  #square1 {
+    grid-area: 1/1/2/2;
+  }
+  #square2 {
+    grid-area: 1/2/1/6;
+  }
+  #square3{
+    grid-area: 1/6/1/12; 
+  }
+  #square4{
+    grid-area: 1/12/7/13;
+  }
+  #square5{
+    grid-area: 1/13/7/14;
+  }
+  #square6{
+    grid-area: 2/2/3/6;
+  }
+  #square7{
+    grid-area: 2/6/2/8;
+  }
+  #square8{
+    grid-area: 2/8/3/12;
+  }
+  #square9{
+    grid-area: 2/1/4/1;
+  }
+  #square10{
+    grid-area: 3/2/4/2;
+  }
+  #square11{
+    grid-area: 3/3/6/4;
+  }
+  #square12{
+    grid-area: 3/4/4/5;
+  }
+  #square13{
+    grid-area: 3/5/4/6;
+  }
+  #square14{
+    grid-area: 3/6/4/7;
+  }
+  #square15{
+    grid-area: 3/7/4/8;
+  }
+  #square16{
+    grid-area: 3/8/4/9;
+  }
+  #square17{
+    
+  }
